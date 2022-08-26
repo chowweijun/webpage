@@ -110,7 +110,7 @@ img {
 }
 
 .links {
-    height:120px;
+    height:100px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -139,6 +139,6 @@ img {
     background-color: #1f2937;
     color: white;
     display: flex;
-    height:70px;
     overflow: hidden;
+    height:38px;
 }
