@@ -1,5 +1,7 @@
+
 body {
     margin:0px;
+    min-height: 100vh;
 }
 
 .header {
@@ -97,7 +99,7 @@ img {
     font-size: 24px;
     font-style:light italic;
     color:#1f2937;
-    height:150px;
+    height:200px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -105,4 +107,38 @@ img {
 
 .name {
     font-weight: bold;
+}
+
+.links {
+    height:120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    margin:40px 500px;
+    gap:50px;
+    color:white;
+    font-size:21px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.links div a {
+    font-size:15px;
+}
+
+.links button {
+    background-color: cornflowerblue;
+    color: white;
+    border:1px solid white;
+    border-radius: 5px;
+    padding:3px 18px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    height:70px;
+    overflow: hidden;
 }
